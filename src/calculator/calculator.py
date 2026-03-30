@@ -21,6 +21,21 @@ def magicSquares(n):
     return (n * (n**2 + 1)) / 2
 
 
+def double(n):
+    """Calculates the double of n"""
+    return 2*n
+
+
+def negative(n):
+    """Calculates the negative of n"""
+    return 0-n
+
+
+def absoluteValue(n):
+    """Calculates the absolute value of n"""
+    return abs(n)
+
+
 def run_calculator(input_formula, input_num):
     """Calls and returns results for the specified formulas"""
     calculator = [squareNums, triNums, lazyCaterer, magicSquares]
